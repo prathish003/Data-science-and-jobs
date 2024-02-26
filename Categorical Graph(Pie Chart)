@@ -1,0 +1,12 @@
+#Categorical Graph
+# Plot a pie chart for a categorical variable 
+(e.g., Job Category)
+plt.figure(figsize=(8, 8))
+labels = 
+df['job_category'].value_counts().index
+sizes = df['job_category'].value_counts().values
+plt.pie(sizes, labels=labels, autopct='%1.1f%%', 
+startangle=140)
+plt.title('Distribution of Job Category')
+plt.axis('equal')
+plt.show()
