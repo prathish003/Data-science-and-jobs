@@ -1,0 +1,4 @@
+#Descriptive statistics
+print()
+print("Descriptive Statistics")
+print(df.describe()
