@@ -1,0 +1,11 @@
+#Relational Graph
+# Plot a line graph (e.g., Relationship between 
+Years of Experience and Salary)
+plt.plot(df['experience_level'], df['salary'], 
+color='blue', marker='o')
+plt.title('Relationship between Years of 
+Experience and Salary')
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
+plt.grid(True)
+plt.show()
