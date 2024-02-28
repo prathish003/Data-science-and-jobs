@@ -1,7 +1,0 @@
-# Select only numeric columns
-numeric_df = df.select_dtypes(include='number')
-# Compute correlation matrix
-correlation_matrix = numeric_df.corr()
-# Display correlation table
-print("Correlation Table:")
-print(correlation_matrix)
