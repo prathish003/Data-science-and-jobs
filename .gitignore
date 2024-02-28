@@ -1,0 +1,6 @@
+# Python
+*.pyc
+_pycache_/
+
+# Data
+jobs_in_data.csv
