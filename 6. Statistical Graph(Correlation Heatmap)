@@ -1,7 +1,0 @@
-#Statistical graph
-#Plot correlation heatmap
-plt.figure(figsize=(10, 8))
-sns.heatmap(correlation_matrix, annot=True, 
-cmap='coolwarm', fmt=".2f")
-plt.title('Correlation Heatmap')
-plt.show()
